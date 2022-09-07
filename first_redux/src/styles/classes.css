@@ -1,0 +1,53 @@
+.title{
+  font-size: 1rem;
+  color: rgb(0, 255, 128);
+  margin-block: 2rem;
+}
+.coluna{
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.container{
+  display: flex;
+  flex-direction: column;
+}
+
+.card{
+  margin: auto;
+  width: 40rem;
+}
+
+.card .header{
+  padding: 5px;
+}
+.content{
+  padding: 12px;
+}
+
+.blue .header{
+  background-color: rgb(5, 5, 145);
+}
+.green .header{
+  background-color: rgb(1, 68, 1);
+}
+.yellow .header{
+  background-color: rgb(184, 184, 41);
+}
+.purple .header{
+  background-color: rgb(68, 2, 68);
+}
+
+.green{
+  background-color: green;
+}
+.yellow{
+  background-color: rgb(150, 150, 7);
+}
+.blue{
+  background-color: blue;
+}
+.purple{
+  background-color: purple;
+}

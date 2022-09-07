@@ -1,0 +1,17 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body{
+  background: linear-gradient(to right, rgb(43, 43, 43), rgb(51, 51, 51));
+  text-align: center;
+  color: rgb(245, 255, 249);
+  font-size: 1.4rem;
+}
+input{
+  padding-inline: 10px;
+  padding-block: 4px ;
+  width: 100px;
+}
