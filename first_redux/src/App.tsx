@@ -1,5 +1,7 @@
-import Card from "./components/card"
 import Intervalo from "./components/intervalo"
+import Media from "./components/media"
+import Soma from "./components/soma"
+import Sorteio from "./components/sorteio"
 
 function App() {
 
@@ -10,9 +12,9 @@ function App() {
       </div>
       <div className="coluna">
         <Intervalo></Intervalo>
-        <Card cor="purple" title="card 1">eae</Card>
-        <Card cor="green" title="card 1">eae</Card>
-        <Card cor="blue" title="card 1">eae</Card>
+        <Soma></Soma>
+        <Sorteio></Sorteio>
+        <Media></Media>
       </div>
 
     </main>
@@ -20,4 +22,5 @@ function App() {
 }
 
 export default App
+
 
